@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Zhi+Mang+Xing&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Zhi+Mang+Xing&display=swap');/*importe de fuente*/
 
   @media screen and (max-width: 500px) {
     body {
@@ -7,7 +7,7 @@
   }
 @media (orientation: portrait) {
     html {
-      background-color: limegreen;
+      background-color: limegreen;       /*Cambios de color dependiendo del dispositivo y la orientacion*/
     }
   }
   
@@ -23,10 +23,17 @@
 font-family:"Zhi Mang Xing";
 text-align:left;
 color:rgb(238, 75, 75);
-background-color:orange
+background-color:orange;
+padding-bottom:30px
   }
-  h1{padding-bottom:30px}
-  i{color:red;    /*primer bloque*/
+  h1{padding-bottom:30px}   /*primer bloque*/
+  .P{background-color:white;
+font-size:80px;
+color:brown;
+text-shadow:orange 3px 3px;  /*primera letra del primer bloque*/
+font-family:arial}
+  
+  i{color:red;    
 font-style: normal;
 }
 
@@ -49,18 +56,22 @@ height: 100px;
 text-align:left}
 th.largo{width:300px
 }
+
 th.bandera1:hover{background-color:red}
 th.bandera2:hover{background-color:white}
-.input1:active{background-color:blue;
-border:red 2px solid}  /*final de tabla*/
+.input1:focus{background-color:blue;
+border:red 2px solid}
+.input2:active{background-color:blue;
+border:red 2px solid}
+  /*final de tabla*/
 
 
 p.banderacolores{background-color:chocolate;
     color:yellow;
     text-align: center;         /* bloque de distintos bordes*/
-    padding:20px;
+    padding:5px;
     border-color:blue red yellow;
-    border-width:12px;
+    border-width: 15px 20px 15px;
     border-style: dotted solid dashed
 }
 footer{background-color:rgb(238, 75, 75)}
