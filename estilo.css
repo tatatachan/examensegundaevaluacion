@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css?family=Zhi+Mang+Xing&display=swap');
+
+  @media screen and (max-width: 500px) {
+    body {
+      background-color:yellow ;
+    }
+  }
+@media (orientation: portrait) {
+    html {
+      background-color: limegreen;
+    }
+  }
+  
+  @media (orientation: landscape) {
+    html {
+      background-color: lightblue;
+    }
+  }
+  
+  
+  
+  header{
+font-family:"Zhi Mang Xing";
+text-align:left;
+color:rgb(238, 75, 75);
+background-color:orange
+  }
+  h1{padding-bottom:30px}
+  i{color:red;    /*primer bloque*/
+font-style: normal;
+}
+
+
+  div.paises{background-color:rgb(110, 218, 96);} /*paises*/
+
+  div.banderas{background-color:blanchedalmond}  /*banderas*/
+
+  hr{background-color:blue;
+margin-left:40%;                 /*hr que se encuentra en banderas*/
+margin-right:40%;
+height:20px;
+border: red 2px solid}
+
+
+
+table{background-color:brown}  /* Principio de tabla*/
+th{width:120px;
+height: 100px;
+text-align:left}
+th.largo{width:300px
+}
+th.bandera1:hover{background-color:red}
+th.bandera2:hover{background-color:white}
+.input1:active{background-color:blue;
+border:red 2px solid}  /*final de tabla*/
+
+
+p.banderacolores{background-color:chocolate;
+    color:yellow;
+    text-align: center;         /* bloque de distintos bordes*/
+    padding:20px;
+    border-color:blue red yellow;
+    border-width:12px;
+    border-style: dotted solid dashed
+}
+footer{background-color:rgb(238, 75, 75)}
+
+footer ol li{list-style: none;     /*footer*/
+display: inline-block; 
+margin-left:20%}
